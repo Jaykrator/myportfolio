@@ -1,5 +1,5 @@
 import React from 'react';
-import potrait1 from '../assets/potrait1.png';
+import Potrait1 from '../assets/Potrait1.png';
 
 const Hero = () => {
   return (
@@ -25,7 +25,7 @@ const Hero = () => {
         data-aos='fade-up'
       >
         <img
-          src={potrait1}
+          src={Potrait1}
           alt='Portrait'
           className='w-full rounded shadow-lg relative z-10'
         />
