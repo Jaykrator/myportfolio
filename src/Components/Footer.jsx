@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaMedium } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaMedium, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -40,6 +40,16 @@ const Footer = () => {
             className='hover:text-pink-400'
           >
             <FaMedium />
+          </a>
+        </li>
+        <li>
+          <a
+            href='https://wa.me/2348134775803?text=Hi%20Jess,%20I%20interested%20in%20your%20services'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-pink-400'
+          >
+            <FaWhatsapp />
           </a>
         </li>
       </ul>

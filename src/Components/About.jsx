@@ -5,11 +5,13 @@ const About = () => {
   return (
     <section
       id='about'
-      className='py-16 px-6 max-w-6xl mx-auto mt-0 items-center'
+      className='py-8 px-6 max-w-6xl mx-auto mt-0'
     >
-      <h2 className='text-3xl text-center  font-bold mb-4 md:mb-6'>Who I am</h2>{' '}
-      {/* reduced mb from 6 to 4 */}
-      <div className='grid md:grid-cols-2 md:gap-4 gap-4 items-center'>
+      <h2 className='text-4xl text-center font-bold mb-4 md:mb-6'>
+        Who I am
+      </h2>
+
+      <div className='grid md:grid-cols-2 md:gap-4 gap-4 items-center min-h-[60vh]'>
         <div>
           <p>
             I code clean, responsive, and user-friendly websites using HTML,
@@ -41,5 +43,3 @@ const About = () => {
 };
 
 export default About;
-
-

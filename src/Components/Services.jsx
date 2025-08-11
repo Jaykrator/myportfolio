@@ -2,9 +2,9 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <section id='services' className='py-16 bg-cover bg-center'>
+    <section id='services' className='py-10 bg-cover bg-center'>
       <div className='bg-black/50 py-10'>
-        <h2 className='text-3xl text-white font-bold text-center mb-8'>
+        <h2 className='text-4xl text-white font-bold text-center mb-8'>
           What I do
         </h2>
         <div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-6'>

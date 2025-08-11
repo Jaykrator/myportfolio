@@ -30,7 +30,7 @@ const WorkSamples = () => {
 
   return (
     <section id='projects' className='py-12 px-6 max-w-6xl mx-auto'>
-      <h2 className='text-3xl text-center font-bold mb-6'>My Work</h2>
+      <h2 className='text-4xl text-center font-bold mb-6'>My Work</h2>
       <div className='grid gap-6 md:grid-cols-3'>
         {projects.map(({ id, title, image, link }) => (
           <a
