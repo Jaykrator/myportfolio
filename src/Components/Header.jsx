@@ -40,7 +40,7 @@ const Header = () => {
 
         {/* Mobile Nav */}
         {menuOpen && (
-          <div className='absolute top-full right-0 w-48 bg-transparent shadow-md flex flex-col items-center space-y-4 py-6 md:hidden'>
+          <div className='absolute top-full right-0 w-38 bg-white shadow-md flex flex-col items-center space-y-4 py-6 md:hidden'>
             <a
               href='#home'
               onClick={toggleMenu}

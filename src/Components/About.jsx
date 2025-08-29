@@ -32,7 +32,7 @@ const About = () => {
         <div className='flex justify-center md:justify-start'>
           <img
             src={Portrait2}
-            alt='Jane leaning against a bus'
+            alt='jess'
             className='rounded shadow-lg w-3/4 md:w-2/3 lg:w-1/2'
             data-aos='fade-up'
           />
