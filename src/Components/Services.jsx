@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Services = () => {
   return (
@@ -8,7 +9,13 @@ const Services = () => {
           What I do
         </h2>
         <div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-6'>
-          <div className='bg-rose-100 p-6 shadow-lg rounded'>
+          <motion.div
+            className='bg-rose-300 p-6 shadow-lg rounded'
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
             <h3 className='text-xl font-bold mb-3'>Design + Development</h3>
             <p>
               I build responsive and functional websites with clean,
@@ -16,16 +23,30 @@ const Services = () => {
               React. I handle both layout design and frontend logic to bring
               digital ideas to life.
             </p>
-          </div>
-          <div className='bg-rose-100 p-6 shadow-lg rounded'>
-            <h3 className='text-xl font-bold mb-3'>Canva+Print Design</h3>
+          </motion.div>
+
+          <motion.div
+            className='bg-rose-300 p-6 shadow-lg rounded'
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            <h3 className='text-xl font-bold mb-3'>Canva + Print Design</h3>
             <p>
               I design for both screen and print using Canva. From social media
               graphics and templates to customized items like shirts, mugs, and
               flyers I help brands express themselves visually and creatively.
             </p>
-          </div>
-          <div className='bg-rose-100 p-6 shadow-lg rounded'>
+          </motion.div>
+
+          <motion.div
+            className='bg-rose-300 p-6 shadow-lg rounded'
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            viewport={{ once: true }}
+          >
             <h3 className='text-xl font-bold mb-3'>
               Creative + Content Writer
             </h3>
@@ -34,16 +55,8 @@ const Services = () => {
               connect with readers. From brand messaging and blogs to
               full-length novels, I use words to inspire, inform, and entertain.
             </p>
-          </div>
+          </motion.div>
         </div>
-        {/* <div className='text-center mt-8'>
-          <a
-            href='#work'
-            className='bg-rose-300 text-white px-6 py-3 rounded shadow hover:bg-pink-600'
-          >
-            My Work
-          </a>
-        </div> */}
       </div>
     </section>
   );

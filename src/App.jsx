@@ -7,7 +7,8 @@ import Hero from './Components/Hero';
 import Services from './Components/Services';
 import About from './Components/About';
 import WorkSamples from './Components/WorkSamples';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer'
+import Contact from './Components/Contact';
 
 const App = () => {
   useEffect(() => {
@@ -18,14 +19,15 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <div className="min-h-screen bg-black text-white">
       <Header />
       <Hero />
       <Services />
       <About />
       <WorkSamples />
+      <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 
