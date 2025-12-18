@@ -16,8 +16,8 @@ const Services = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className='text-xl font-bold mb-3'>Design + Development</h3>
-            <p>
+            <h3 className='text-xl font-bold mb-3 text-gray-800'>Design + Development</h3>
+            <p className='text-gray-900'>
               I build responsive and functional websites with clean,
               user-friendly interfaces using HTML, Tailwind CSS, JavaScript, and
               React. I handle both layout design and frontend logic to bring
@@ -32,8 +32,8 @@ const Services = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className='text-xl font-bold mb-3'>Canva + Print Design</h3>
-            <p>
+            <h3 className='text-xl font-bold mb-3 text-gray-800'>Canva + Print Design</h3>
+            <p className='text-gray-900'>
               I design for both screen and print using Canva. From social media
               graphics and templates to customized items like shirts, mugs, and
               flyers I help brands express themselves visually and creatively.
@@ -47,10 +47,10 @@ const Services = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <h3 className='text-xl font-bold mb-3'>
+            <h3 className='text-xl font-bold mb-3 text-gray-800'>
               Creative + Content Writer
             </h3>
-            <p>
+            <p className='text-gray-900'>
               I write engaging content, articles, and fictional stories that
               connect with readers. From brand messaging and blogs to
               full-length novels, I use words to inspire, inform, and entertain.

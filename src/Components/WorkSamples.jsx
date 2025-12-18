@@ -16,7 +16,7 @@ const WorkSamples = () => {
       description:
         'A healthcare platform with patient booking, dashboard & analytics.',
       image: healthease,
-      demoLink: 'https://healthease-demo.vercel.app/',
+      demoLink: 'https://health-easeapp.vercel.app/',
       githubLink: 'https://github.com/yourusername/healthease',
     },
     {
